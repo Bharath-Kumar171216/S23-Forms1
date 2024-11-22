@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>APPLICATION FORM</h1>
+     <form>
+        <div>
+        <fieldset>
+            <legend style="font-size: 20px; color: red;">Personal Information</legend>
+            <div>
+                <label>Name</label>
+               <input> 
+            </div>
+            <div>
+                <label>Father Name</label>
+               <input> 
+            </div>
+            <div>
+                <label>Mother Name</label>
+               <input> 
+            </div>
+        <div>
+            <label>Programming Language Known</label>
+            <input list="favColors">
+            <datalist id="favColors">
+                <option>Java</option>
+                <option>Java Script</option>
+                <option>Python</option>
+            </datalist>
+        </div>
+        <div>
+            <label>State</label>
+            <select>
+                <option>Slect</option>
+                <optgroup label="Telugu states">
+                <option>Telangana</option>
+                <option>Andhra Pradesh</option>
+            </optgroup>
+            <optgroup label="Other states">
+                <option>kerala</option>
+                <option>Karnataka</option>
+                <option>Chennai</option>
+            </optgroup>
+            </select>
+            <div>
+                <label>Address</label>
+                <textarea name="" id=""></textarea>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend style="font-size: 20px; color: red;">Academic details</legend>
+        <div>
+        <label>English</label>
+       <input> 
+    </div>
+    <div>
+       <label>Telugu</label>
+       <input>
+    </div> 
+    <div>
+       <label>Hindi</label>
+       <input>
+    </div>
+    <div> 
+       <label>Social</label>
+       <input>  
+    </div>
+    <div> 
+       <label>Science</label>
+       <input> 
+    </div>
+    <div>
+       <label>Maths</label>
+       <input> 
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</fieldset>
+</div>
+     </form> 
+</body>
+</html>
